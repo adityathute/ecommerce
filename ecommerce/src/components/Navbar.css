@@ -1,0 +1,85 @@
+/* src/components/Navbar.css */
+
+header {
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 55px;
+    width: auto;
+    margin: 5px;
+}
+
+.nav-title {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Button Styles */
+.contact-button {
+    margin-left: auto;
+}
+
+.contact-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-align: center;
+    line-height: 1;
+}
+
+.contact-link:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+
+    .contact-link {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header{
+        margin-bottom: 5px;
+    }
+
+    .nav-title {
+        font-size: 16px;
+    }
+
+    .nav-logo {
+        height: 40px;
+    }
+
+    .contact-link {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}

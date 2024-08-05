@@ -1,0 +1,31 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #081a33;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+    margin-top: 30px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content-main {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-content-links {
+    margin: 10px 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.footer-content a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #c2c2c2;
+}

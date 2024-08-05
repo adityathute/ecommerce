@@ -1,0 +1,93 @@
+/* src/policy/Policy.css */
+
+.policy {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.policy-outer{
+    margin-left: 3%;
+}
+
+.policy h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1166DB;
+    padding-bottom: 10px;
+    color: #1166DB;
+}
+
+.policy h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1166DB;
+}
+
+.policy p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.policy a {
+    color: #1166DB;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.policy ul,
+.policy ul li {
+    line-height: 1.6;
+}
+
+.policy a:hover {
+    text-decoration: underline;
+}
+
+.links{
+    text-decoration: none;
+    color: #1166DB;
+    font-weight: 600;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .policy {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .policy h1 {
+        font-size: 1.5em;
+    }
+
+    .policy h2 {
+        font-size: 1.25em;
+    }
+
+    .policy p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .policy {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .policy h1 {
+        font-size: 1.25em;
+    }
+
+    .policy h2 {
+        font-size: 1em;
+    }
+
+    .policy p {
+        font-size: 0.85em;
+    }
+}
