@@ -41,8 +41,8 @@ header {
     text-decoration: none;
     background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 4px 3px;
+    font-size: 14px;
     border-radius: 4px;
     transition: background-color 0.3s;
     text-align: center;
@@ -50,6 +50,47 @@ header {
 }
 
 .contact-link:hover {
+    background-color: #0056b3;
+}
+.loginSignup{
+    margin-left: auto;
+}
+.loginSignup{
+    background-color: #007BFF; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 1px 2px; /* Smaller padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Set a specific display */
+    font-size: 14px; /* Smaller font size */
+    margin: 1px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 4px; /* Rounded corners */
+    transition-duration: 0.3s; /* Transition effect */
+}
+.loginSignup:hover{
+    background-color: #0056b3;
+}
+/*marthi*/
+.Signup{
+    margin-left: auto;
+}
+.Signup{
+    background-color: #007BFF; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 1px 2px; /* Smaller padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Set a specific display */
+    font-size: 14px; /* Smaller font size */
+    margin: 1px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 4px; /* Rounded corners */
+    transition-duration: 0.3s; /* Transition effect */
+}
+.Signup:hover{
     background-color: #0056b3;
 }
 

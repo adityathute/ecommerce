@@ -13,9 +13,11 @@ function Footer() {
           <Link to="/about">About</Link>&nbsp; 
           <Link to="/privacy-policy">Privacy Policy</Link>&nbsp; 
           <Link to="/terms-of-service">Terms of Service</Link>&nbsp; 
-          <Link to="/refund-policy">Refund Policy</Link>&nbsp; 
+          <Link to="/return-policy">Return Policy</Link>&nbsp; 
           <Link to="/disclaimer">Disclaimer</Link>
+          
         </p>
+
       </div>
     </footer>
   );

@@ -1,4 +1,4 @@
-function logiSignupButton() {
+function login() {
     return (
         <div className="main_envolope">
             <div className="fullscreen cc">
@@ -37,11 +37,11 @@ function logiSignupButton() {
                             </g>
                         </g>
                     </svg>
-                    <span className="cta-text">Login / SignUp</span>
+                    <span className="cta-text">Contact Us</span>
                 </a>
             </div>
         </div>
     );
 }
 
-export default logiSignupButton;
+export default login;

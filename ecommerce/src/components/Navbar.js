@@ -16,6 +16,12 @@ function Navbar() {
        <div className="contact-button">
         <Link to="/contact" className="contact-link">Contact</Link>
       </div>
+       <div className="loginSignup">
+        <Link to="/loginSignup" className="loginSignup">Login</Link>
+      </div>
+       <div className="Signup">
+        <Link to="/Signup" className="Signup">Signup</Link>
+      </div>
     </header>
   );
 }
