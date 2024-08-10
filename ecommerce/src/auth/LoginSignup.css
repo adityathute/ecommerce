@@ -1,0 +1,40 @@
+.form-container {
+   width: 350px;
+   margin:  auto;
+   padding: 60px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: white;
+}
+
+.form-group {
+   margin-bottom: 10px;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color: #0a06d7;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+button:hover {
+   background-color: #45a049;
+}
