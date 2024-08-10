@@ -14,14 +14,9 @@ function Navbar() {
         </Link>
         {/* <div className="nav-title">Dolat</div> */}
       </div>
-<<<<<<< HEAD
-      <div className="contact-button">
-        <Link to="/contact" className="contact-link">Contact</Link>
-=======
 
       <div className="nav-center">
 
->>>>>>> 
 
       </div>
 
