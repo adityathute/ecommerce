@@ -3,6 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import '../Global.css';
 
 function Navbar() {
   return (
@@ -13,15 +14,22 @@ function Navbar() {
         </Link>
         {/* <div className="nav-title">Dolat</div> */}
       </div>
-       <div className="contact-button">
-        <Link to="/contact" className="contact-link">Contact</Link>
+
+      <div className="nav-center">
+
       </div>
-       <div className="loginSignup">
-        <Link to="/loginSignup" className="loginSignup">Login</Link>
+
+      <div className="nav-right">
+        <div className="">
+          <Link to="/Login" className="button btn-blue">Login</Link>
+        </div>
+        <div className="">
+          <Link to="/Signup" className="button btn-green">Signup</Link>
+        </div>
       </div>
-       <div className="Signup">
-        <Link to="/Signup" className="Signup">Signup</Link>
-      </div>
+
+
+
     </header>
   );
 }

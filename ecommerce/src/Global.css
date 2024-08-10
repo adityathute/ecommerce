@@ -1,0 +1,20 @@
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.btn-blue{
+    background-color: #1166DB;
+}
+
+.btn-blue:hover{
+    background-color: #0d4d9e;
+}
+
+.btn-green{
+    background-color: #28a745;
+}
+
+.btn-green:hover{
+    background-color: #218838;
+}
