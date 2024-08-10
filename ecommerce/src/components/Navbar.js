@@ -13,7 +13,7 @@ function Navbar() {
         </Link>
         {/* <div className="nav-title">Dolat</div> */}
       </div>
-       <div className="contact-button">
+      <div className="contact-button">
         <Link to="/contact" className="contact-link">Contact</Link>
       </div>
     </header>
