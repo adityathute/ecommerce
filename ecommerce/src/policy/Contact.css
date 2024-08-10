@@ -3,8 +3,7 @@
 .contact-wrapper {
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 20px;
+  margin: 50px auto;
 }
 
 .contact-container {
@@ -123,6 +122,10 @@ form {
 }
 
 @media (max-width: 480px) {
+  .contact-wrapper {
+    margin: 50px 15px;
+  }
+
   .contact-container {
     padding: 10px;
     width: 90%;

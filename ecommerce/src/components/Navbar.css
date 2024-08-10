@@ -1,22 +1,36 @@
 /* src/components/Navbar.css */
 
 header {
-    background-color: #fff;
     color: black;
+    background-color: #fff;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgb(231, 231, 231);
     padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    position: relative;
-    margin-bottom: 30px;
-    border-bottom: 1px solid rgb(231, 231, 231);
-    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-left {
     display: flex;
     align-items: center;
+    flex-basis: 20%;
+    justify-content: flex-start;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(100% - 40%);
+    justify-content: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-basis: 20%;
+    gap: 16px;
 }
 
 .nav-logo {
@@ -32,77 +46,25 @@ header {
 }
 
 /* Button Styles */
-.contact-button {
-    margin-left: auto;
-}
-
-.contact-link {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #007bff;
-    color: #fff;
-    padding: 4px 3px;
-    font-size: 14px;
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
-    transition: background-color 0.3s;
-    text-align: center;
-    line-height: 1;
-}
-
-.contact-link:hover {
-    background-color: #0056b3;
-}
-.loginSignup{
-    margin-left: auto;
-}
-.loginSignup{
-    background-color: #007BFF; /* Blue background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 1px 2px; /* Smaller padding */
-    text-align: center; /* Centered text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Set a specific display */
-    font-size: 14px; /* Smaller font size */
-    margin: 1px 2px; /* Some margin */
-    cursor: pointer; /* Pointer/hand icon */
-    border-radius: 4px; /* Rounded corners */
-    transition-duration: 0.3s; /* Transition effect */
-}
-.loginSignup:hover{
-    background-color: #0056b3;
-}
-/*marthi*/
-.Signup{
-    margin-left: auto;
-}
-.Signup{
-    background-color: #007BFF; /* Blue background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 1px 2px; /* Smaller padding */
-    text-align: center; /* Centered text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Set a specific display */
-    font-size: 14px; /* Smaller font size */
-    margin: 1px 2px; /* Some margin */
-    cursor: pointer; /* Pointer/hand icon */
-    border-radius: 4px; /* Rounded corners */
-    transition-duration: 0.3s; /* Transition effect */
-}
-.Signup:hover{
-    background-color: #0056b3;
+    text-decoration: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    outline: none;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
         flex-direction: row;
-    }
-
-    .contact-link {
-        font-size: 14px;
-        padding: 8px 16px;
     }
 }
 
@@ -119,8 +81,18 @@ header {
         height: 40px;
     }
 
-    .contact-link {
-        font-size: 14px;
-        padding: 6px 12px;
+    .nav-center{
+        display: none;
     }
+    
+    .nav-right{
+        gap: 8px;
+        margin-left: auto;
+    }
+
+    .button{
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
 }

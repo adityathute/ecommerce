@@ -1,0 +1,122 @@
+.form-wrapper {
+   display: flex;
+   justify-content: center;
+   margin: 50px auto;
+}
+
+.form-container {
+   width: 20%;
+   padding: 30px 30px;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   background-color: #f9f9f9;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1{
+   font-size: 1.8rem;
+   margin-bottom: 45px;
+}
+
+.login-form-group {
+   position: relative;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+.login-form-group input {
+   width: 100%;
+   padding: 8px 12px;
+   margin-bottom: 18px;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding-left: 38px;
+   font-size: 15px;
+   line-height: 1.2;
+   letter-spacing: 0.2px;
+   border: 1px solid #ddd;
+   outline: none;
+}
+
+.login-form-group input:focus-within {
+  border: 1px solid #1166DB;
+}
+
+/* Icon styles */
+.login-form-group .emailIcon {
+   position: absolute;
+   left: 10px;
+   width: 18px;
+   top: 10px;
+ }
+
+.login-form-group .passwordIcon {
+   position: absolute;
+   left: 11px;
+   width: 16px;
+   top: 7px;
+ }
+
+.login-form-group .nameIcon {
+   position: absolute;
+   left: 11px;
+   width: 15px;
+   top: 9px;
+ }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   .form-container {
+     padding: 15px;
+     width: 80%;
+   }
+ 
+   .form-container h1 {
+     font-size: 1.8em;
+   }
+ 
+   button {
+     font-size: 14px;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .form-wrapper {
+     margin: 50px 15px;
+   }
+ 
+   .form-container {
+     padding: 30px 15px;
+     width: 90%;
+   }
+ 
+   .form-container h1 {
+     font-size: 1.5em;
+   }
+ 
+   .login-form-group input {
+     padding: 10px;
+     padding-left: 38px;
+   }
+
+   .login-form-group .emailIcon {
+      width: 16px;
+      top: 13px;
+    }
+   
+   .login-form-group .passwordIcon {
+      width: 14px;
+      top: 11px;
+    }
+   
+   .login-form-group .nameIcon {
+      width: 14px;
+      top: 11px;
+    }
+
+ }
